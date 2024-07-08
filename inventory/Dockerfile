@@ -2,13 +2,13 @@ FROM icr.io/appcafe/open-liberty:full-java11-openj9-ubi
 ARG VERSION=1.0
 ARG REVISION=SNAPSHOT
 LABEL \
-  org.opencontainers.image.authors="Your Name" \
-  org.opencontainers.image.vendor="Open Liberty" \
+  org.opencontainers.image.authors="Przemek" \
+  org.opencontainers.image.vendor="MintFrost" \
   org.opencontainers.image.url="local" \
-  org.opencontainers.image.source="https://github.com/OpenLiberty/guide-containerize" \
+  org.opencontainers.image.source="https://github.com/GitMamut/contenerized.git" \
   org.opencontainers.image.version="$VERSION" \
   org.opencontainers.image.revision="$REVISION" \
-  vendor="Open Liberty" \
+  vendor="MintFrost" \
   name="inventory" \
   version="$VERSION-$REVISION" \
   summary="The inventory microservice from the Containerizing microservices guide" \
